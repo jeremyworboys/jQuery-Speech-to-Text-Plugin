@@ -20,7 +20,12 @@
 		<div class="row"><div class="span16">
 
 			<h3>Usage</h3>
+			<p>General usage is to select the input or textarea fields that you wuold like to enable speech to text on.
 			<pre><code class="language-javascript">$("input, textarea").speechToText();</code></pre>
+
+			<h4>Options</h4>
+			<p>You may pass a class name in the options parameter which will be used to reset any custom CSS you have applied to input fields. This is used to avoid strange effects on the speech button on textareas.<p>
+			<pre><code class="language-javascript">$("textarea").speechToText({inputResetClass:"input-reset-class"});</code></pre>
 
 			<hr />
 
