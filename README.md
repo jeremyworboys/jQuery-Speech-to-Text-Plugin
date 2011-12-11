@@ -3,7 +3,8 @@
 ## Usage
 
 General usage is to select the input and/or textarea fields that you would like to enable speech to text on.
-```jquery
+
+```javascript
 $("input, textarea").speechToText();
 ```
 
