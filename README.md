@@ -15,4 +15,10 @@ $("input, textarea").speechToText();
 You may specify a class to reset any custom CSS you have applied to input fields. This is used as a dummy input has to be created to enable speech to text on textareas.
 
 
-Email for [support](mailto:support@complexcompulsions.com).
+## Note
+This plugin uses the HTML5 `speech` attribute which is currently only implemented by webkit (Chrome, Safari, iOS, Android, etc) and only natively on `<input>` elements.
+
+This plugin was primarily designed to bring this functionality to the `<textarea>` element, but it is still limited by the support of the HTML5 `speech` attribute.
+
+
+Email for [support](mailto:jw@jeremyworboys.com).
